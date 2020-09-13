@@ -1,0 +1,207 @@
+<html>
+    <head>
+        <title>FOOD SPECIALITIES</title>
+        <link rel="stylesheet" href="food styles.css">
+    </head>
+    <body style="background-color: #e0e0d6;">
+        <H1 style="border: 2PX SOLID ORANGERED; background-color: orange;"><marquee>India is all about mouth watering Cuisines.</marquee></H1>
+        
+        <div class="slideshow-container">
+
+            <div class="mySlides fade" >
+              <div class="text">PURE TRADITIONAL</div>
+              <img src="food pics/ss1.jpg">
+            </div>
+            
+            <div class="mySlides fade">
+              <div class="text">BREAKFAST</div>
+              <img src="food pics/ss2.png" >
+            </div>
+            
+            <div class="mySlides fade">
+              <div class="text">SWEETS</div>
+              <img src="food pics/ss3.png">
+            </div>
+            
+            </div>
+            <br>
+            
+            <div style="text-align:center">
+              <span class="dot"></span> 
+              <span class="dot"></span> 
+              <span class="dot"></span> 
+            </div>
+            
+            <script>
+            var slideIndex = 0;
+            showSlides();
+            
+            function showSlides() {
+              var i;
+              var slides = document.getElementsByClassName("mySlides");
+              var dots = document.getElementsByClassName("dot");
+              for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";  
+              }
+              slideIndex++;
+              if (slideIndex > slides.length) {slideIndex = 1}    
+              for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+              }
+              slides[slideIndex-1].style.display = "block";  
+              dots[slideIndex-1].className += " active";
+              setTimeout(showSlides, 2000); // Change image every 2 seconds
+            }
+            </script>
+
+<pre style="background-image: url('food pics/plate.jpg') ; background-size: 50% 100%; background-repeat: no-repeat; color: rgb(180, 3, 3); text-align: right;" >
+  <h1><b>
+  From Chole Bhature of Delhi to Dosa of South,    
+  From Rosogulla of Bengal to Dhokla of Gujrat,    
+  From Lassi of Punjab to Biryani of Hyderabad,    
+  From Wada Pav of Mumbai to Malai Chop of Kolkata,
+  From Dal Bati Churma of Rajasthan to Litti       
+  Chokha of Bihar,                               
+  India is all about mouth watering Cuisines.      
+  No wonder Why INDIAN Cuisine always top the      
+  Foodies list world wide.                       
+  And these are not just food but emotions of      
+  People.                                        
+</b></h1>
+</pre>
+
+        <div class="grid-container">
+            <div class="grid-item">
+                <div class="column">
+                  <p><h3 style="color: white; background-color: blue;"><b>NORTH</b></h3></p>
+                    <img src="food pics/rajasthani.jpg" width="350px" height="300px">
+                </div>
+                <div class="column">
+                    <p><u><b><mark> RAJASTHANI SPECIAL THALI</mark> </b></u></p><p>Very well know place for Tourism " RAJASTHAN" has specialty <u><b>"DAAL BATI CHURMA with GHEE "</b></u></p>
+                </div>
+              </div>
+              <div class="grid-item">
+                <div class="column">
+                  <p><h3 style="color: white; background-color: blue;"><b>NORTH</b></h3></p>  
+                  <img src="food pics/bikaner special.jpg" width="350px" height="300px">
+                </div>
+                <div class="column">
+                    <p><u><b><mark>RASGULLE and BHUJIYA </mark></b></u></p><p>Specialty of <b><u>BIKANER in RAJASTHAN</u></b> is "Sweet RASGULLE and Spicy BHUJIYA"</s></p>
+                </div>
+              </div>
+              <div class="grid-item">
+                <div class="column">
+                  <p><h3 style="color: white; background-color: blue;"><b>NORTH</b></h3></p>
+                  <img src="food pics/ghewar.webp" width="350px" height="300px">
+                </div>
+                <div class="column">
+                    <p><u><b><mark>MALAI GHEVAR </mark></b></u></p><p>Ghevar is a Rajasthani cuisine sweet traditionally associated with the <b><u>Teej Festival</u></b></s></p>
+                </div>
+              </div>
+              <div class="grid-item">
+                <div class="column">
+                  <p><h3 style="color: white; background-color: blue;"><b>WEST</b></h3></p>
+                  <img src="food pics/gujrati.jpg" width="350px" height="300px">
+                </div>
+                <div class="column">
+                    <p><u><b><mark>GUJRATI SPECIAL THALI </mark></b></u></p><p>GUJRATI THALI basically contains variety of Dishes with special <b><u>CHASS</u></b></p>
+                </div>
+              </div>
+              <div class="grid-item">
+                <div class="column">
+                  <p><h3 style="color: white; background-color: blue;"><b>WEST</b></h3></p>
+                  <img src="food pics/jalebifafda.webp" width="350px" height="300px">
+                </div>
+                <div class="column">
+                    <p><u><b><mark>JALEBI & FAFDA</mark></b></u></p><p>These are the most sought-after sweet and salt combination in Gujarati cuisine on special ocassion <u><b>DUSHERRA</b></u></p>
+                </div>
+              </div>
+              <div class="grid-item">
+                <div class="column">
+                  <p><h3 style="color: white; background-color: blue;"><b>WEST</b></h3></p>
+                    <img src="food pics/dhokla.png" width="350px" height="300px">
+                </div>
+                <div class="column">
+                    <p><u><b><mark>DHOKLA</mark></b></u></p><p>Dhokla is a vegetarian culinary dish eaten for breakfast and on <u><b>Special Ocassions</b></u></p>
+                </div>
+              </div>
+            
+            <div class="grid-item">
+                <div class="column">
+                  <p><h3 style="color: white; background-color: blue;"><b>NORTH</b></h3></p>
+                    <img src="food pics/punjabi.JPG" width="350px" height="300px">
+                </div>
+                <div class="column">
+                    <p><u><b><mark>PUNJABI THALI</mark></b></u></p><p>PUNJABI thali Contsins <u><b>LACHA PARANTHA</b></u> with sabji's and <u><b>LASSI</b></u></p>
+                </div>
+              </div><div class="grid-item">
+                <div class="column">
+                  <p><h3 style="color: white; background-color: blue;"><b>NORTH</b></h3></p>
+                    <img src="food pics/punjab2.jpg" width="350px" height="300px">
+                </div>
+                <div class="column">
+                    <p><b><u><mark>PARANTHA</u></b> </p><p>To start day with delicious <b><u>LACHHA PARANTHA</u></b></p>
+                </div>
+              </div><div class="grid-item">
+                <div class="column">
+                  <p><h3 style="color: white; background-color: blue;"><b>NORTH</b></h3></p>
+                    <img src="food pics/lassi.jpg" width="350px" height="300px">
+                </div>
+                <div class="column">
+                    <p><b><u><mark>LASSI</u></b> </p><p>sweet lassi is another cooling and <b><u>refreshing drink</b></u> to have in the </s></p>
+                </div>
+              </div><div class="grid-item">
+                <div class="column">
+                  <p><h3 style="color: white; background-color: blue;"><b>WEST</b></h3></p>
+                    <img src="food pics/mh thali.jpg" width="350px" height="300px">
+                </div>
+                <div class="column">
+                    <p><u><b><mark>MHARASHTRIAN THALI</mark></u></b>   </p><p>Having delicious combination of Jaggery and Wheat called<b><u> PURANPOLI </u></b></p>
+                </div>
+              </div><div class="grid-item">
+                <div class="column">
+                  <p><h3 style="color: white; background-color: blue;"><b>WEST</b></h3></p>
+                    <img src="food pics/wada pav.jpg" width="350px" height="300px">
+                </div>
+                <div class="column">
+                    <p><u><b><mark>WADA PAV</mark></u></b> </p><p>Street food of <u><b>Mumbai</b></u> is famous not only in India all over te world </s></p>
+                </div>
+              </div><div class="grid-item">
+                <div class="column">
+                  <p><h3 style="color: white; background-color: blue;"><b>SOUTH</b></h3></p>
+                    <img src="food pics/south dish.jpg" width="350px" height="300px">
+                </div>
+                <div class="column">
+                    <p><u><b><mark>SOUTH INDIAN</mark></b></u></p><p>These are basically made up of rice and Udid Dal, <b><u>DOSA</u></b> <b><u>IDLI</u></b> <b><u>MEDU WADA</u></b></p>
+                </div>
+            </div><div class="grid-item">
+                <div class="column">
+                  <p><h3 style="color: white; background-color: blue;"><b>EAST</b></h3></p>
+                    <img src="food pics/bengali sweet.jpg" width="350px" height="300px">
+                </div>
+                <div class="column">
+                    <p><u><b><mark>MALAI CHOP</mark></b></u></p><p>It is a<b><u> THREE LAYERED SWEET</u></b> with <b><u>DRY FRUITS </u></b> on it</p>
+                </div>
+              </div> 
+            <div class="grid-item">
+                <div class="column">
+                  <p><h3 style="color: white; background-color: blue;"><b>EAST</b></h3></p>
+                    <img src="food pics/misti doi.jpg" width="350px" height="300px">
+                </div>
+                <div class="column">
+                  
+                    <p><u><b><mark>MISHTI DOI</mark></u></b> </p><p>It is the mixture of <u><b>Flavoured Curd and Sugar</b></u> is famous not only in India all over te world </s></p>
+                </div>
+                </div>
+                <div class="grid-item">
+                    <div class="column">
+                      <p><h3 style="color: white; background-color: blue;"><b>WEST</b></h3></p>
+                        <img src="food pics/malpua.jpg" width="350px" height="300px">
+                    </div>
+                    <div class="column">
+                        <p><u><b><mark>MALPUA</mark></u></b> </p><p>It is well known sweet of <u><b>MADHYA PRADESH</b></u> is famous not only in India all over te world </s></p>
+                    </div>
+                    </div>
+          </div>
+    </body>
+</html>

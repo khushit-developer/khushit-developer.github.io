@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Incredible India | Festivals</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color: #e0e0d6;">
+
+
+
+<header>
+	<div>
+<h1>Festivals of India</h1>
+<h3>India is famous for a lot of things around the world from yoga to its diversity from its travel destinations to its rich past but one thing that this country is better at doing than most is celebrating festivals, lots of festivals. A country with diverse religious and cultural backgrounds India as a nation gets to celebrate festivals of different types, tastes and colors and that is what makes festivities in this country so special to experience.</h3>
+	<br>
+
+		</div>
+</header>
+
+
+
+
+	<!-- Slideshow img -->
+	<div class = "slideshow-container">
+		<div class="mySlides fade" >
+			<div class="text">Diwali-<i>Festival of lights</i></div>
+			<img src="img/diwali.jpg">
+		</div>
+
+		<div class="mySlides fade">
+			<div class="text">Holi-<i>Festival of Colours</i></div>
+			<img src="img/holi.jpg" >
+		</div>
+
+		<div class="mySlides fade">
+			<div class="text">Christmas-<i>Birth of Jesus Christ</i></div>
+			<img src="img/christmas.jpg">
+		</div>
+
+		<div class="mySlides fade" >
+			<div class="text">Eid-al-fit<i>(Ramadan)</i></div>
+			<img src="img/eid.jpg">
+		</div>
+
+		<div class="mySlides fade">
+			<div class="text">Ganesh Chathurti</div>
+			<img src="img/ganesha.jpg" >
+		</div>
+
+
+	</div>
+	<br>
+	<div style="text-align:center">
+		<span class="dot"></span> 
+		<span class="dot"></span> 
+		<span class="dot"></span> 
+		<span class="dot"></span> 
+		<span class="dot"></span> 
+    </div>
+     
+<script>
+var slideIndex = 0;
+showSlides();
+function showSlides() {
+	var i;
+	var slides = document.getElementsByClassName("mySlides");
+	var dots = document.getElementsByClassName("dot");
+	for (i = 0; i < slides.length; i++) {
+		slides[i].style.display = "none";  
+	}
+	slideIndex++;
+	if (slideIndex > slides.length) {slideIndex = 1}    
+	for (i = 0; i < dots.length; i++) {
+   		dots[i].className = dots[i].className.replace(" active", "");
+	}
+	slides[slideIndex-1].style.display = "block";  
+   	dots[slideIndex-1].className += " active";
+   	setTimeout(showSlides, 2000); // Change image every 2 seconds
+	}
+</script>
+
+<h2>NORTH</h2>
+ <div class="grid-container">
+ 	
+
+            <div class="grid-item">
+                <div class="column">
+                    <img src="img/kumbh.jpg" width="350px" height="300px">
+                </div>
+                <div class="column">
+                    <p><u><b><mark>Kumbh Mela</mark> </b></u></p><p>The biggest fair in India. It takes place every 12 years in four cities - <u><b>Prayagraj (Allahabad), Haridwar, Ujjain and Nashik.</b></u></p>
+                </div>
+            </div>
+
+            <div class="grid-item">
+                <div class="column">
+                    <img src="img/sindhu.jpg" width="350px" height="300px">
+                </div>
+                <div class="column">
+                    <p><u><b><mark>Sindhu Darshan </mark></b></u></p><p>It aims to pay tribute to 
+					<b><u>soldiers at the border and dead ancestors.</u></b></s></p>
+                </div>
+            </div>
+
+            <div class="grid-item">
+                <div class="column">
+                    <img src="img/lodhi.jpg" width="350px" height="300px">
+                </div>
+                <div class="column">
+                    <p><u><b><mark>Lohri</mark></b></u></p><p>It is a winter festival celebrated mainly in <b><u>Punjab </u></b></s>which marks the end of the winter season.</p>
+                </div>
+            </div>
+
+    </div>   
+    <h2>SOUTH</h2>
+ <div class="grid-container">    
+              <div class="grid-item">
+                <div class="column">
+                    <img src="img/onam.jpg" width="350px" height="300px">
+                </div>
+                <div class="column">
+                    <p><u><b><mark>Onam </mark></b></u></p><p>A festival that celebrates prosperity and fertility, Onam is celebrated during the harvest season in <b><u>Kerala.</u></b></p>
+                </div>
+              </div>
+
+              <div class="grid-item">
+                <div class="column">
+                    <img src="img/ugadi.jpg" width="350px" height="300px">
+                </div>
+                <div class="column">
+                    <p><u><b><mark>Ugadi</mark></b></u></p><p>It is the New Year's Day for the States of <u><b>Andhra Pradesh </b></u></p>
+                </div>
+              </div>
+
+              <div class="grid-item">
+                <div class="column">
+                    <img src="img/pongal.jpg" width="350px" height="300px">
+                </div>
+                <div class="column">
+                    <p><u><b><mark>Pongal</mark></b></u></p><p>Pongal is a multi-day <u><b>Tamil</b></u> harvest festival of South India, particularly in the Tamil community.</p>
+                </div>
+              </div>
+         </div>
+         <h2>EAST</h2>
+ <div class="grid-container">   
+            <div class="grid-item">
+                <div class="column">
+                    <img src="img/bihu.jpg" width="350px" height="300px">
+                </div>
+                <div class="column">
+                    <p><u><b><mark>Bihu Festival</mark></b></u></p><p>It is celebrated at seeding time in spring with plenty of singing and dancing. It also marks the start of the new year of <u><b>Assam.</b></u></p>
+                </div>
+              </div>
+
+              <div class="grid-item">
+                <div class="column">
+                    <img src="img/puja.jpg" width="350px" height="300px">
+                </div>
+                <div class="column">
+                    <p><b><u><mark>Chatth Puja</mark></u></b></p>
+                    <p>It is an ancient Hindu festival dedicated to the Sun (God Surya).It is an expression of thanks giving and seeking blessings from the Almighty for sustaining life on Earth.<b><u></u></b></p>
+                </div>
+              </div>
+
+              <div class="grid-item">
+                <div class="column">
+                    <img src="img/durga.jpg" width="350px" height="300px">
+                </div>
+                <div class="column">
+                    <p><b><u><mark>Durga Pooja</mark></u></b> </p><p>Durga Pooja is the most important festival of Orissa which is magnificently celebrated all over the state of  <b><u>Orrisa.</b></u></s></p>
+                </div>
+              </div>
+          </div>
+          <h2>West</h2>
+ <div class="grid-container">
+              <div class="grid-item">
+                <div class="column">
+                    <img src="img/gudhi.jpg" width="350px" height="300px">
+                </div>
+                <div class="column">
+                    <p><u><b><mark>Gudhi Padwa</mark></u></b> </p><p>Gudhi Padwa signifies the beginning of a prosperous new year of <u><b>Maharashtra.</b></u> </s></p>
+                </div>
+              </div>
+              <div class="grid-item">
+                <div class="column">
+                    <img src="img/makar.jpg" width="350px" height="300px">
+                </div>
+                <div class="column">
+                    <p><u><b><mark>Makar Sankranti</mark></u></b></p> <p> It is celebrated to mark the beginning of the agricultural cycle and the end of the winter season. Prominently celebrated in <b><u>Gujarat.</u></b></p>
+                </div>
+              </div>
+              <div class="grid-item">
+                <div class="column">
+                    <img src="img/shivaji.jpg" width="350px" height="300px">
+                </div>
+                <div class="column">
+                    <p><u><b><mark>Shivaji Jayanti</mark></b></u></p><p>Chattrapati Shivaji Maharaj was the greatest ruler and his birthday is celebrated all across the state of <b><u>Maharashtra.</u></b></p>
+                </div>
+            </div>
+</div>       
+</body>
+</html>
